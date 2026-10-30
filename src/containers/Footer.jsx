@@ -12,7 +12,7 @@ const Footer = () => {
 
 			<DivContainer className="space-y-1 text-[13px] tracking-wide">
 				<a
-					href="https://github.com/theonlydayo"
+					href="https://github.com/theonlydayo/dayothedev"
 					target="_blank"
 					rel="noreferrer"
 					className="text-white transition-normal hover:text-mono-gray"

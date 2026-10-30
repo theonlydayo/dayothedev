@@ -71,7 +71,7 @@ const data = {
                 "PostgreSQL",
                 "Clerk",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/outpost",
             live: "https://outpost-mocha-nine.vercel.app",
         },
 
@@ -92,7 +92,7 @@ const data = {
                 "Clerk",
                 "Gemini AI",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/forge",
             live: "https://forge-henna-theta.vercel.app",
         },
 
@@ -114,7 +114,7 @@ const data = {
                 "Prisma",
                 "PostgreSQL",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/T3-chat",
             live: "https://t3-chat-ten.vercel.app",
         },
 
@@ -133,7 +133,7 @@ const data = {
                 "Express.js",
                 "PostgreSQL",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/dreamlms-ui",
             live: "https://dreamlms-ui.vercel.app",
         },
 
@@ -153,7 +153,7 @@ const data = {
                 "Webpack",
                 "REST API",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/job-pilot",
             live: "https://job-pilot-61t8.onrender.com",
         },
 
@@ -165,7 +165,7 @@ const data = {
                 "A LeetCode-inspired coding platform built with Next.js, featuring user authentication, coding problem libraries, an interactive code editor, code submission and execution, solution tracking, user profiles, and coding progress statistics.",
             ],
             skills: ["Next.js", "TypeScript", "Tailwind CSS"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/leetcode",
             live: "https://leetcode-nu-hazel.vercel.app",
         },
 
@@ -183,7 +183,7 @@ const data = {
                 "Strapi",
                 "MongoDB",
             ],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/idea-drop-ui",
             live: "https://idea-drop-ui-eosin.vercel.app",
         },
 
@@ -195,7 +195,7 @@ const data = {
                 "A responsive developer portfolio and blog website built with React Router v7 and Tailwind CSS, featuring dynamic project filtering, sorting and pagination, a Strapi-powered blog, dynamic routing, API integration, and environment-based configuration.",
             ],
             skills: ["React", "React Router", "Tailwind CSS", "Strapi"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/friendly-dev-frontend",
             live: "https://friendly-dev-frontend-peach.vercel.app",
         },
 
@@ -207,7 +207,7 @@ const data = {
                 "A responsive ambient sound mixer built with HTML, Tailwind CSS, and JavaScript, featuring customizable sound mixing, volume controls, presets, sleep timers, dark/light themes, localStorage persistence, and offline audio playback.",
             ],
             skills: ["HTML", "JavaScript", "Tailwind CSS"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/ambient-sound-mixer",
             live: "https://ambient-sound-mixer.onrender.com",
         },
 
@@ -219,7 +219,7 @@ const data = {
                 "A movie and TV show discovery app built with vanilla JavaScript and the TMDB API, featuring popular movies and shows, detailed information pages, search with pagination, and a Swiper slider for movies currently in theaters.",
             ],
             skills: ["HTML", "CSS", "JavaScript", "TMDB API", "Swiper"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/flixx-app",
             live: "https://flixx-app-8zjj.onrender.com",
         },
 
@@ -231,7 +231,7 @@ const data = {
                 "A responsive cryptocurrency dashboard built with React, featuring real-time cryptocurrency data, search functionality, market information, and API integration using the CoinGecko API.",
             ],
             skills: ["React", "JavaScript", "CSS", "CoinGecko API"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/crypto-dash",
             live: "https://crypto-dash-spat.onrender.com",
         },
 
@@ -243,7 +243,7 @@ const data = {
                 "A modern landing page for a creative agency, featuring clean typography, responsive layouts, and engaging visuals. Designed to deliver a polished user experience across desktop, tablet, and mobile devices.",
             ],
             skills: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/lumina-creative",
             live: "https://lumlnacreative.netlify.app",
         },
 
@@ -255,7 +255,7 @@ const data = {
                 "A responsive weather dashboard that displays real-time weather conditions and a 5-day forecast. Built with a clean, modern interface focused on usability, responsive layouts, and an intuitive user experience.",
             ],
             skills: ["HTML", "CSS", "JavaScript", "Weather API"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/weather-dashboard",
             live: "https://weather-dashboard-mqyt.onrender.com",
         },
 
@@ -267,7 +267,7 @@ const data = {
                 "A responsive calorie tracking application that allows users to log meals, track calorie intake, and record workouts. The project showcases state management, DOM manipulation, responsive design, and dynamic data updates.",
             ],
             skills: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/tracalorie",
             live: "https://tracalorie-app.onrender.com",
         },
 
@@ -279,7 +279,7 @@ const data = {
                 "A responsive GitHub user search app built with React and TypeScript, featuring GitHub API integration, user search and filtering, autocomplete suggestions, recent search history with localStorage, and efficient data fetching with TanStack Query.",
             ],
             skills: ["React", "TypeScript", "TanStack Query", "GitHub API"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/github-finder",
             live: "https://app-github-finder.onrender.com",
         },
 
@@ -291,7 +291,7 @@ const data = {
                 "A simple and responsive shopping list application that allows users to add, remove, and manage items with ease. Built with a clean interface to demonstrate DOM manipulation, event handling, and interactive JavaScript functionality.",
             ],
             skills: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/shopping-list",
             live: "https://dayo-shopping-list.netlify.app",
         },
 
@@ -303,7 +303,7 @@ const data = {
                 "A responsive random quote generator that retrieves and displays inspirational quotes from an external API. The project showcases API integration, asynchronous JavaScript, DOM manipulation, and responsive design.",
             ],
             skills: ["HTML", "CSS", "JavaScript", "REST API"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/quote-generator",
             live: "https://quote-generator-emhe.onrender.com",
         },
 
@@ -315,7 +315,7 @@ const data = {
                 "A responsive landing page with a modern contact form, built using semantic HTML and CSS. The project emphasizes clean design, accessibility, and an intuitive user experience across all screen sizes.",
             ],
             skills: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/theonlydayo",
+            github: "https://github.com/theonlydayo/landing-form",
             live: "https://landing-form.onrender.com",
         },
     ],
