@@ -1,8 +1,11 @@
+
 /* eslint-disable react/prop-types */
 import useHover from "../../hooks/use-hover";
 
 const ProjectImage = ({ live, isOdd, image }) => {
 	const [isHovering, handleMouseOver, handleMouseOut] = useHover();
+
+	console.log("Project image:", image);
 
 	return (
 		<a
@@ -15,13 +18,15 @@ const ProjectImage = ({ live, isOdd, image }) => {
 		>
 			<div
 				className={`transition-normal ease-out ${
-					isHovering && "grayscale"
+					isHovering ? "grayscale" : ""
 				}`}
 			>
 				<img
 					src={image}
-					alt="project image"
+					alt="Project screenshot"
 					className="block w-full h-auto object-cover"
+					onLoad={() => console.log("Image loaded:", image)}
+					onError={() => console.error("Image failed:", image)}
 				/>
 			</div>
 		</a>

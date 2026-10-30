@@ -1,10 +1,19 @@
-import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
-import { FaXTwitter } from "react-icons/fa6";
 import outpostImage from "./assets/images/outpost.png";
 import forgeImage from "./assets/images/forge.png";
 import t3ChatImage from "./assets/images/t3-chat.png";
 import dreamsLmsImage from "./assets/images/dreams-lms.png";
 import jobPilotImage from "./assets/images/job-pilot.png";
+
+console.log({
+    outpostImage,
+    forgeImage,
+    t3ChatImage,
+    dreamsLmsImage,
+    jobPilotImage,
+});
+
+import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 
 const data = {
     pageSections: ["about", "projects", "contact"],
@@ -49,7 +58,7 @@ const data = {
         {
             id: 1,
             category: "featured",
-            image: "image: outpostImage",
+            image: outpostImage,
             name: "Outpost",
             description: [
                 "An AI-powered workspace application built with Next.js, TypeScript, and Tailwind CSS. Features include AI-assisted workflows, document editing with BlockNote, an interactive canvas, Kanban task management, voice prompting, and AI code reviews. Integrated with Neon PostgreSQL and Prisma for database management.",
@@ -69,7 +78,7 @@ const data = {
         {
             id: 2,
             category: "featured",
-            image: "image: forgeImage",
+            image: forgeImage,
             name: "Forge",
             description: [
                 "An AI-powered web application built with Next.js and TypeScript. Features secure authentication, database management, and AI-powered functionality, integrating Clerk, Prisma, PostgreSQL, and Google's Gemini AI.",
@@ -90,7 +99,7 @@ const data = {
         {
             id: 3,
             category: "featured",
-            image: "image: t3ChatImage",
+            image: t3ChatImage,
             name: "T3 Chat Clone",
             description: [
                 "An AI-powered chat application inspired by T3 Chat, built with Next.js and TypeScript. Features include an interactive chat interface, conversation management, AI model selection through OpenRouter, dynamic chat pages, and a responsive sidebar with customizable themes. Uses Better Auth for authentication and Neon PostgreSQL with Prisma for database management.",
@@ -112,7 +121,7 @@ const data = {
         {
             id: 4,
             category: "featured",
-            image: "image: dreamsLmsImage",
+            image: dreamsLmsImage,
             name: "Dreams LMS",
             description: [
                 "A learning management system designed to provide an interactive platform for managing courses, learning materials, and educational activities.",
@@ -131,7 +140,7 @@ const data = {
         {
             id: 5,
             category: "featured",
-            image: "image: jobPilotImage",
+            image: jobPilotImage,
             name: "Job Pilot",
             description: [
                 "A job search platform designed to simplify the job-hunting process. Features include dynamic job listings, debounced search, advanced filtering by location, salary, job type and workplace type, pagination, and dedicated pages for job discovery and company information.",
