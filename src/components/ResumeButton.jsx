@@ -1,17 +1,17 @@
-
 /* eslint-disable react/prop-types */
-import Button from "../UI/Button";
+import ButtonLink from "../UI/ButtonLink";
 
 const ResumeButton = ({ className, bgColor }) => {
-	return (
-		<Button
-			href="/resume.pdf"
-			innerClassName={className}
-			bgColor={bgColor}
-		>
-			Resume
-		</Button>
-	);
+    return (
+        <ButtonLink
+            href="/resume.pdf"
+            download="Adedayo_Ogunwolu_Resume.pdf"
+            innerClassName={className}
+            bgColor={bgColor}
+        >
+            Resume
+        </ButtonLink>
+    );
 };
 
 export default ResumeButton;
