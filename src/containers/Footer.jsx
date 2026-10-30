@@ -1,0 +1,40 @@
+
+import DivContainer from "../animation components/DivContainer";
+import InlineLink from "../components/InlineLink";
+import SocialLinks from "../components/SocialLinks";
+
+const Footer = () => {
+	return (
+		<footer className="p-[15px] flex flex-col items-center text-center">
+			<DivContainer className="md:hidden">
+				<SocialLinks />
+			</DivContainer>
+
+			<DivContainer className="space-y-1 text-[13px] tracking-wide">
+				<a
+					href="https://github.com/theonlydayo"
+					target="_blank"
+					rel="noreferrer"
+					className="text-white transition-normal hover:text-mono-gray"
+				>
+					Built by Adedayo Ogunwolu
+				</a>
+
+				<p className="text-mono-gray">
+					Design inspired by{" "}
+					<InlineLink
+						href="https://v4.brittanychiang.com/"
+						text="Brittany Chiang"
+					/>{" "}
+					and{" "}
+					<InlineLink
+						href="https://kromate.dev/"
+						text="Anthony Akpan"
+					/>
+				</p>
+			</DivContainer>
+		</footer>
+	);
+};
+
+export default Footer;
